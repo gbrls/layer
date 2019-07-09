@@ -1,0 +1,15 @@
+[package]
+name = "layer"
+version = "0.1.0"
+authors = ["gbrls <gabrielschneider100@protonmail.com>"]
+edition = "2018"
+readme = "./readme.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[dependencies.sdl2]
+version = "0.32.2"
+default-features = false
+features = ["ttf"]
