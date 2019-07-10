@@ -3,6 +3,8 @@ This was made for me, to simplify making games.
 
 # Usage
 
+The `layer::run::Context` exposes a sdl2 canvas.
+
 ```rust
 use layer::internals::{KeyAction, KeyActionType};
 use layer::run;
